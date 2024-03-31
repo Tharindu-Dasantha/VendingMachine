@@ -2,9 +2,9 @@ import java.util.Scanner;
 
 public class VendingMachine {
 
-    private static Product[] products = new Product[50];
+    static Product[] products = new Product[50];
     private static Scanner getInput = new Scanner(System.in);
-    private static double income = 0.0;
+    static double income = 0.0;
 
     public static void main(String[] args) {
         while(true) {
